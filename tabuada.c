@@ -17,21 +17,21 @@ int main()
 		printf("* Tabuada de Adicao                                          *\n");
 		printf("**************************************************************\n\n");
 
-	while(sn == 's')
+	while(sn == 's')    //inicio do loop
 	{
 		printf("Tabuada de Adicao \n");
 		printf("=================\n");
-		printf("Entre com o numero de [1-9]:");
+		printf("Entre com o numero de [1-9]:");    //Entrada do numero a ser somado
 		scanf("%d", &num);
 		printf("Tabuada do: %d", num);
 		printf("\n============\n");
 	
 		for(contador = 1;contador <= 10;contador++)
 		{
-		  printf("%d + %d = %d\n", num, contador, num + contador);
+		  printf("%d + %d = %d\n", num, contador, num + contador);    //tabuada a ser impressa
 		}
 		
-		printf("\nDeseja continuar? (s/n)");
+		printf("\nDeseja continuar? (s/n)");     //opcao se deseja continuar
 		scanf("%s", &sn);
 		
 	}
